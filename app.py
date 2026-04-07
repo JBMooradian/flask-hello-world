@@ -1,6 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
-import psycopg2
+import psycopg2-binary==2.9.5
 
 @app.route('/')
 def hello_world():
